@@ -1,0 +1,18 @@
+# Ignorar binários e executáveis compilados
+*.exe
+*.dll
+*.o
+*.out
+*.obj
+
+# Ignorar arquivos de dados grandes (geramos eles com o python)
+*.csv
+*.log
+
+# Ignorar pastas de configuração da IDE (VS Code)
+.vscode/
+.idea/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
